@@ -24,6 +24,6 @@ public class Primes {
                 sum++;
             }
         }
-        System.out.println("There are " + sum + " primes between 2 and " + n+ " (" + (int) 100/(n/sum) +"% are primes)");
+        System.out.println("There are " + sum + " primes between 2 and " + n+ " (" + sum*100/n +"% are primes)");
     }
 }
